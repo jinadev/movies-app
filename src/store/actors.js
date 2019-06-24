@@ -1,4 +1,4 @@
-const actors = (state = [], action) => {
+export const actors = (state = [], action) => {
     switch (action.type) {
       default:
         return state
