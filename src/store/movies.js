@@ -1,4 +1,4 @@
-export const movies = (state = [], action) => {
+const movies = (state = [], action) => {
     switch (action.type) {
       default:
         return state
